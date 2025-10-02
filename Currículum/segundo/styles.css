@@ -59,3 +59,16 @@ p, li{
     display: flex;
     justify-content: center;
 }
+
+nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav button {
+    margin-right: 2px;
+    color: rgb(37, 38, 37);
+    border-color: cadetblue;
+    border-radius: 25%;
+}
