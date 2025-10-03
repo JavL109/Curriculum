@@ -1,0 +1,59 @@
+html{
+    font-family: "Montserrat";
+    background-color: rgb(228, 227, 227);
+   /* background-image: url(./images/teclado.jpg);
+    background-size: cover;*/
+    color: black;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+#container_right{
+    margin: 5px;
+}
+
+#container_left{
+    margin: 10px;
+    border-right: 2px solid rgb(37, 155, 202);
+}
+
+.image{
+    height: 40px;
+}
+
+.otros{
+    background-color: rgb(213, 213, 205);
+}
+
+#datos-personales{
+    background-color: rgb(212, 222, 222);
+    text-align: center;
+}
+
+#profile_container{
+    display: flex;
+    justify-content: center;
+}
+
+#profile{
+    border-radius: 50%;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+p, li{
+    font-weight: 400;
+}
+
+#rectangle_container{
+    width: 20%;
+    background-color: black;
+}
