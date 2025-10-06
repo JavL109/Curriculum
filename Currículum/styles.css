@@ -9,18 +9,14 @@ html{
     font-weight: 100;
 }
 
-body{
-    display: grid;
-    grid-template-columns: 300px 1fr;
-}
 
 #container_right{
-    margin: 5px;
+    justify-self: center;
+    border-bottom: 2px solid rgb(104, 183, 220);
 }
 
 #container_left{
     margin: 10px;
-    border-right: 2px solid rgb(37, 155, 202);
 }
 
 .image{
@@ -28,11 +24,16 @@ body{
 }
 
 .otros{
-    background-color: rgb(213, 213, 205);
+    background-color: rgba(213, 213, 205, 0.718);
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin: 5px;
+    padding-left: 10px;
 }
 
 #datos-personales{
-    background-color: rgb(212, 222, 222);
+    background-color: rgba(212, 222, 222, 0.771);
     text-align: center;
 }
 
@@ -43,6 +44,8 @@ body{
 
 #profile{
     border-radius: 50%;
+    width: 15%;
+    height: 15%;
 }
 
 h1{
@@ -51,6 +54,12 @@ h1{
 
 p, li{
     font-weight: 400;
+}
+
+#container-color-blocks{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 nav{
